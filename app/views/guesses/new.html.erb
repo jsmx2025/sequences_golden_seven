@@ -1,0 +1,38 @@
+<h1>Add A New Guess</h1>
+
+<form action="/create_guess">
+  <p>
+    Enter a sequence:
+  </p>
+
+
+  <label for="first">First number:</label>
+  <input id="first" type="text" name="first_number" placeholder="The first number">
+
+  <label for="second">Second number:</label>
+  <input id="second" type="text" name="second_number" placeholder="The second number">
+
+  <label for="third">Third number:</label>
+  <input id="third" type="text" name="third_number" placeholder="The third number">
+
+  <button>
+    Check
+  </button>
+</form>
+
+<hr>
+
+<form action="">
+  <p>
+    When you think you know the rule, describe it in words below and then submit your answer. <strong>Make sure you’re right; you won’t get a second chance.</strong>
+  </p>
+
+  <label for="your_answer">Your answer:</label>
+  <div>
+    <textarea id="your_answer" name="rule" rows="8" cols="40" placeholder="Describe what you think the rule is"></textarea>
+  </div>
+
+  <button>
+    I think I know it
+  </button>
+</form>
